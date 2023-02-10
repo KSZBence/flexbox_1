@@ -11,6 +11,7 @@ article{
     color: beige;
     background: #9c9c9c;
     flex: 1 1 200px;
+    flex-wrap: wrap;
 }
 
 article header {
@@ -25,3 +26,7 @@ section{
     justify-content: space-around;
     margin: 0 auto;
 }
+
+article:nth-of-type(4)  {
+    flex-grow: 10; 
+  }

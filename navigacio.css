@@ -1,0 +1,17 @@
+nav{
+    background-color:rgb(182, 182, 182);
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+nav a{
+    text-decoration:none;
+}
+
+#home{
+    background-color: red;
+    color: aliceblue;
+    align-self: flex-start;
+    text-decoration: none;
+}
